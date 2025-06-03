@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/*
+    Author: Sahara Krompel
+    Date: 2 June 2025
+    Filename: arrays.css
+    Citations: https://cssgradient.io/,
+               https://cssgenerator.org/box-shadow-css-generator.html
+*/
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+
+body {
+    background: #0c1318;
+    /* https://bgjar.com/circuit-board */
+    background-image: url("../images/Circuit\ Board.svg");
+    font-family: "Saira", sans-serif;
+    color:whitesmoke;
+}
+
+/* Style the main heading */
+
+h1 {
+    text-align: center;
+    /* https://cssgradient.io/ */
+    background: #283E51;
+    background: radial-gradient(circle,rgba(40, 62, 81, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* https://cssgenerator.org/box-shadow-css-generator.html */
+    box-shadow: 1px 1px 20px 10px rgba(40, 62, 81, 1);
+    border-radius: 5px;
+    margin: 50px;
+    padding: 30px 0px;
+    font-size: 50px;
+}
+
+/* Additional global styles */
+
+h2 {
+    font-size: 40px;
+}
+
+/* Style borders around the sections and the table cells */
+
+section {
+    /* https://cssgradient.io/ */
+    background: #283E51;
+    background: radial-gradient(circle,rgba(40, 62, 81, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* https://cssgenerator.org/box-shadow-css-generator.html */
+    box-shadow: 1px 1px 20px 10px rgba(40, 62, 81, 1);
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 50%;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+section * {
+    padding: 10px 0;
+}
+
+/* Style the table headers and cells */
+
+table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: #283E51;
+    padding: 20px 50px;
+}
+
+th {
+    font-size: 25px;
+}
+
+/* Style the unordered lists within sections */
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    left: 0;
+}
+
+/* Style the footer */
+
+footer {
+    background: #0c1318;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the h4 elements within the footer */
+
+footer h4 {
+    padding: 10px 0;
+    font-size: 20px;
+    color: #283E51;;
+}
